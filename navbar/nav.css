@@ -1,0 +1,70 @@
+.navbar {
+    background: linear-gradient(90deg, #FFD54F, #FFF176);
+    color: #f57f17;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Logo */
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #f57f17;
+}
+
+/* Right Navbar */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Help Button */
+.help-btn {
+    width: 35px;
+    height: 35px;
+    background: #fbc02d;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.help-btn:hover {
+    background: #f57f17;
+    transform: scale(1.1);
+}
+
+.material-icons {
+   color: #f57f17;
+}
+
+/* Profile */
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #f57f17;
+}
+
+/* Supaya konten tidak ketutup navbar */
+.container {
+    margin-top: 90px;
+}
+
+.profil {
+   text-decoration: none;
+   color: white;
+}
